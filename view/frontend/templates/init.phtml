@@ -1,6 +1,6 @@
 <?php
 /**
- * @var $viewModel \CarlosReynosa\OsanoCookieConsent\Block\Init\Config
+ * @var $viewModel Config\OsanoCookieConsent\Block\Init\Config
  */
 $viewModel = $block->getViewModel();
 $config = $viewModel->getConfigJson();
@@ -9,7 +9,7 @@ $config = $viewModel->getConfigJson();
 <script type="text/x-magento-init">
     {
         "*": {
-            "CarlosReynosa_OsanoCookieConsent/js/init": <?= $config ?>
+            "Iconocoders_OsanoCookieConsent/js/init": <?= $config ?>
         }
     }
 </script>

@@ -1,6 +1,6 @@
 <?php
 
-namespace CarlosReynosa\OsanoCookieConsent\Block\Init;
+namespace Iconocoders\OsanoCookieConsent\Block\Init;
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Framework\Serialize\Serializer\Json;
@@ -35,7 +35,7 @@ class Config implements ArgumentInterface
      */
     public function getConfig()
     {
-        return $this->scopeConfig->getValue('carlos_reynosa')['osano_cookie_consent'];
+        return $this->scopeConfig->getValue('iconocoders')['osano_cookie_consent'];
     }
 
     /**
@@ -66,6 +66,17 @@ class Config implements ArgumentInterface
                 'button' => [
                     'background' => $config['palette_button_background']
                 ]
+            ],
+            "content" => [
+                "message" => $config['message'],
+                "dismiss" => $config['dismiss'],
+                "allow" => $config['allow'],
+                "decline" => $config['decline'],
+                "link" => $config['link'],
+                "href" => $config['href'],
+                "close" => $config['close'],
+                "policy" => $config['policy'],
+                "target" => $config['target']
             ]
         ];
     }

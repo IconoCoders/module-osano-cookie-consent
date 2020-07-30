@@ -3,8 +3,8 @@
     <acl>
         <resources>
             <resource id="Magento_Backend::admin">
-                <resource id="CarlosReynosa_OsanoCookieConsent::top" title="TITLE HERE FOR">
-                    <resource id="CarlosReynosa_OsanoCookieConsent::config" title="TITLE HERE FOR"/>
+                <resource id="Iconocoders_OsanoCookieConsent::top" title="TITLE HERE FOR">
+                    <resource id="Iconocoders_OsanoCookieConsent::config" title="TITLE HERE FOR"/>
                 </resource>
             </resource>
         </resources>

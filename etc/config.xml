@@ -1,11 +1,20 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
     <default>
-        <carlos_reynosa>
+        <iconocoders>
             <osano_cookie_consent>
                 <palette_popup_background><![CDATA[#000]]></palette_popup_background>
                 <palette_button_background><![CDATA[#f1d600]]></palette_button_background>
+                <message>This website uses cookies to improve your experience.</message>
+                <dismiss>Got it!</dismiss>
+                <allow>Allow cookies!</allow>
+                <decline>Decline!</decline>
+                <link>Learn more</link>
+                <href>https://www.cookiesandyou.com</href>
+                <close><![CDATA[&#x274c;]]></close>
+                <policy>Cookie Policy</policy>
+                <target><![CDATA[_blank]]></target>
             </osano_cookie_consent>
-        </carlos_reynosa>
+        </iconocoders>
     </default>
 </config>

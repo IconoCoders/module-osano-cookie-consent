@@ -5,7 +5,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 # Releases 
-## [Unreleased]
+## [1.1.0]
+- New licensing
+- Added required php versions
+- Added ability for admin to change cookie consent popup text
+- Added ability for admin to change cookie consent popup more info link
+- Added ability for admin to change cookie consent popup button text
 
 ## [1.0.6]
 ### Changed 
