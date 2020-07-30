@@ -4,9 +4,7 @@ Magento 2 Extension for the [Osano Cookie Consent Javascript plugin](https://www
 
 Facts
 -----
-- version: 1.0.6
-- [Extension on GitHub](https://github.com/carlos-reynosa/module-osano-cookie-consent)
-- [Download Latest](https://github.com/carlos-reynosa/module-osano-cookie-consent/archive/master.zip)
+- version: 1.1.0
 
 Description
 -----------
@@ -24,15 +22,15 @@ Composer Installation Instructions
 
 1. Add the extension via composer
 
-    `composer require carlos-reynosa/module-osano-cookie-consent`
+    `composer require iconocoders/module-osano-cookie-consent`
 
 2. Run Composer Update
 
-    `composer update carlos-reynosa/module-osano-cookie-consent`
+    `composer update iconocoders/module-osano-cookie-consent`
 
 3. Enable the module
 
-    `bin/magento module:enable CarlosReynosa_OsanoCookieConsent`
+    `bin/magento module:enable Iconocoders_OsanoCookieConsent`
 
 4. Run upgrade and flush caches
 
@@ -42,32 +40,30 @@ Composer Installation Instructions
 
 Customization 
 --------------
-You can configure the cookie consent pop up within the magento admin at Admin -> Store -> Carlos Reynosa -> Osano Cookie Consent.
+You can configure the cookie consent pop up within the magento admin at Admin -> Store -> Iconocoders -> Osano Cookie Consent.
 
 Supported Customization Options
 -------------
-1. Change popup background color
-2. Change popup button background color
+- ability for admin to change cookie consent popup background color
+- ability for admin to change cookie consent popup button background color
+- ability for admin to change cookie consent popup text
+- ability for admin to change cookie consent popup more info link
+- ability for admin to change cookie consent popup button text
 
 Support
 -------
-If you have any issues with this extension, open an issue on [GitHub](https://github.com/carlos-reynosa/module-osano-cookie-consent/issues).
+If you have any issues with this extension, open an issue on [GitHub](https://github.com/iconocoders/module-osano-cookie-consent/issues).
 
 Contribution
 ------------
-Any contribution is highly appreciated. The best way to contribute code is to open a [pull request on GitHub](https://github.com/carlos-reynosa/module-osano-cookie-consent/pulls).
+Any contribution is highly appreciated. The best way to contribute code is to open a [pull request on GitHub](https://github.com/iconocoders/module-osano-cookie-consent/pulls).
 
 Developer
 ---------
 Carlos Reynosa
 
-- Website: [https://www.carlos-reynosa.com](https://www.carlos-reynosa.com)
-- Twitter: [@carlos_reynosa](https://twitter.com/carlos_reynosa)
-
-Licence
--------
-[MIT License](https://github.com/carlos-reynosa/module-osano-cookie-consent/blob/master/LICENSE)
+- Website: [https://icoders.co](https://icoders.co)
 
 Copyright
 ---------
-(c) 2020 Carlos Reynosa
+(c) 2020 Iconocoders

@@ -7,10 +7,10 @@
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
-        <tab id="carlosreynosa">
-            <label>Carlos Reynosa</label>
+        <tab id="iconocoders">
+            <label>Iconocoders</label>
         </tab>
-        <section id="carlosreynosa_osano_cookie_consent" showInDefault="1" showInWebsite="1" showInStore="1">
+        <section id="iconocoders_osano_cookie_consent" showInDefault="1" showInWebsite="1" showInStore="1">
             <label>Osano Cookie Consent</label>
             <tab>carlosreynosa</tab>
             <resource>CarlosReynosa_OsanoCookieConsent::config</resource>
@@ -25,6 +25,42 @@
                     <label>Popup Button Background Color</label>
                     <config_path>carlos_reynosa/osano_cookie_consent/palette_button_background</config_path>
                     <comment>Any CSS valid color value.</comment>
+                </field>
+                <field id="message" type="text" showInDefault="1" showInStore="1" showInWebsite="1">
+                    <label>Popup message</label>
+                    <config_path>iconocoders/osano_cookie_consent/message</config_path>
+                </field>
+                <field id="dismiss" type="text" showInDefault="1" showInStore="1" showInWebsite="1">
+                    <label>Popup dismiss text</label>
+                    <config_path>iconocoders/osano_cookie_consent/dismiss</config_path>
+                </field>
+                <field id="allow" type="text" showInDefault="1" showInStore="1" showInWebsite="1">
+                    <label>Popup allow text</label>
+                    <config_path>iconocoders/osano_cookie_consent/allow</config_path>
+                </field>
+                <field id="decline" type="text" showInDefault="1" showInStore="1" showInWebsite="1">
+                    <label>Popup decline text</label>
+                    <config_path>iconocoders/osano_cookie_consent/decline</config_path>
+                </field>
+                <field id="link" type="text" showInDefault="1" showInStore="1" showInWebsite="1">
+                    <label>Popup link text</label>
+                    <config_path>iconocoders/osano_cookie_consent/link</config_path>
+                </field>
+                <field id="href" type="text" showInDefault="1" showInStore="1" showInWebsite="1">
+                    <label>Popup link url</label>
+                    <config_path>iconocoders/osano_cookie_consent/href</config_path>
+                </field>
+                <field id="close" type="text" showInDefault="1" showInStore="1" showInWebsite="1">
+                    <label>Popup close symbol</label>
+                    <config_path>iconocoders/osano_cookie_consent/close</config_path>
+                </field>
+                <field id="policy" type="text" showInDefault="1" showInStore="1" showInWebsite="1">
+                    <label>Popup policy text</label>
+                    <config_path>iconocoders/osano_cookie_consent/policy</config_path>
+                </field>
+                <field id="target" type="text" showInDefault="1" showInStore="1" showInWebsite="1">
+                    <label>Popup link target</label>
+                    <config_path>iconocoders/osano_cookie_consent/target</config_path>
                 </field>
             </group>
         </section>
