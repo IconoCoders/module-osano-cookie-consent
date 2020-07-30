@@ -60,7 +60,6 @@ Any contribution is highly appreciated. The best way to contribute code is to op
 
 Developer
 ---------
-Carlos Reynosa
 
 - Website: [https://icoders.co](https://icoders.co)
 
